@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>Demo</title>
+
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+                font-size: 10vh;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                
+                
+            }
+
+
+            @keyframes appear {
+                from {
+                    opacity: 0;
+                    transform: translateX(-100px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }
+
+            .kontainer{
+                height: 100vh;
+                width: 100%;
+                overflow-y: scroll;
+                scroll-snap-type: y mandatory;
+            }
+
+
+            
+            #slide1{
+                width:100%;
+                height: 100vh;
+                scroll-snap-align: start;
+                background-color: #F0F7D4;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                color:#4424D6;
+                
+            }
+
+            #slide2{
+                width:100%;
+                height: 100vh;
+                scroll-snap-align: start;
+                background-color: #B2D732;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                color: #F0F7D4;
+                
+            }
+            #slide3{
+                width:100%;
+                height: 100vh;
+                scroll-snap-align: start;
+                background-color: #4424D6;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                color:#B2D732 ;
+            }
+
+            #slika1,#slika2,#slika3{
+                height: 40vh;
+                
+                
+            } 
+
+            .animate {
+                animation: appear 1.8s linear;
+            }
+            
+
+            .futer{
+                background-color: black;
+            }
+            .contact{
+                color:#B2D732;
+                font-size: 5vh;
+            }
+                
+        </style>
+
+    </head>
+
+    <body>
+        <main class="kontainer">
+            <section id="slide1" class="slide">
+                <img class="animate-on-scroll" id="slika1" src="images/slika1.png" alt="slika1">
+                <p>I'm a Developer</p>
+            </section>
+
+            <section id="slide2" class="slide">
+                <img class="animate-on-scroll" id="slika2" src="images/slika2.png" alt="slika2">
+                <p>A Web Developer</p>
+            </section>
+
+            <section id="slide3" class="slide">
+                <img  class="animate-on-scroll" id="slika3" src="images/location.png">
+                <p>Located in Bosnia and Herzegovina</p>
+            </section>
+        </main>
+        <!--
+        <div class="kontainer">
+            <div id="slide1" class="slide">
+            
+                <img id="slika1" src="images/slika1.png" alt="slika1">
+                <p>I'm a Developer</p>
+            </div>
+
+            <div id="slide2" class="slide">
+                <img id="slika2" src="images/slika2.png" alt="slika2">
+                <p>A Web Developer</p>
+            </div>
+
+            <div id="slide3" class="slide">
+                <img id="slika3" src="images/location.png">
+                <p>Located in Bosnia and Herzegovina</p>
+            </div>-->
+        </div>
+        <!--
+        <footer class="futer">
+            <p class="contact">Contact me at: har.sehic@gmail.com</p>
+        </footer>-->
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
