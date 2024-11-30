@@ -1,0 +1,185 @@
+body{
+    margin:0;
+    height:100vh;
+    width:100%;
+    background-color: rgb(68, 109, 109);
+}
+
+.holder{
+    border-top: 5px solid white;
+    border-bottom:5px solid white;
+    background-image: url(Images/strbacki_buk.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 90vh;
+    width:100%;
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.main{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    width:100%;
+    border-radius: 50px;
+    
+    
+}
+
+.first{
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    
+}
+.middle{
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
+    /*border: 5px white solid;*/
+    width: 20%;
+    order:1;
+}
+
+.second{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    height: 45%;
+    
+}
+.rectangle1{
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40%;
+    width: 30%;
+    order:2;
+}
+.rectangle2{
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    height: 40%;
+    width: 30%;
+    order: 3;
+    text-align: center;
+}
+
+.rectangle3{
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40%;
+    width: 30%;
+    order: 4;
+    text-align: center;
+}
+.rectangle4{
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40%;
+    width: 30%;
+    text-align: center;
+    order: 5;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    font-style: italic;
+    word-wrap: break-word;
+    white-space: nowrap;
+    font-size: 8vh;
+    width: 100%;
+    z-index: 1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
+    
+    
+}
+
+.nav{
+    margin: 0;
+    padding-top: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 1vh;
+    
+}
+
+ul{
+    
+    display: flex;
+    margin-right:2vh;
+    
+}
+
+li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 1vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+    list-style-type:none;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:transparent;
+    font-size: x-large;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: white;
+    
+}
+
+a:hover{
+    color:white
+}
