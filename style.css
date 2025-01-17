@@ -58,7 +58,7 @@ img{
     .middle{
         position:absolute;
         bottom:5vh;
-        
+        border:2px solid yellow;
         left:0;
         
     
@@ -67,8 +67,8 @@ img{
     .navbarClass{
         background-color: transparent;
         border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        
         
         
         display: flex;
